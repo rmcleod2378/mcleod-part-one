@@ -1,0 +1,99 @@
+/*Renee McLeod Grand Circus Unit 1 CSS*/
+
+/*google fonts*/
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed");
+
+html {
+  font-family: "Fira Sans Condensed", sans-serif;
+  background-color: #f0ecee;
+}
+
+header {
+  font-size: 25px;
+  display: flex;
+  justify-content: left-side;
+}
+.me {
+  color: #ff4850;
+}
+.flex-container {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: flex-end;
+  align-items: baseline;
+  align-content: space-around;
+}
+
+.nav-item {
+  display: inline;
+  color: #88898b;
+  margin: 5px;
+}
+
+a {
+  justify-content: center;
+  text-decoration: none;
+  color: #88898b;
+}
+a:hover {
+  color: #ff4850;
+}
+p {
+  color: #88898b;
+}
+
+.contact {
+  display: inline-block;
+  background-color: #e74c3c;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  width: auto;
+}
+.contact:hover {
+  background-color: #ccc;
+}
+
+.adopting {
+  color: #ff4850;
+}
+
+.find {
+  display: inline-block;
+  background-color: #e74c3c;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  width: auto;
+}
+
+.find:hover {
+  background-color: #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    display: none;
+  }
+  a {
+    display: block;
+    text-align: left;
+  }
+  .contact {
+    width: 95%;
+    text-align: center;
+  }
+  h3 {
+    text-align: left;
+  }
+  p {
+    text-align: left;
+  }
+  .find {
+    width: 95%;
+    text-align: center;
+  }
+  .flex-container {
+    display: inline;
+  }
+}
