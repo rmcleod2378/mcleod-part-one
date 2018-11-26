@@ -5,7 +5,11 @@
 
 html {
   font-family: "Fira Sans Condensed", sans-serif;
+  background-image: url ("images/bulldog.jpg");
   background-color: #f0ecee;
+}
+img {
+	float: right;
 }
 
 header {
